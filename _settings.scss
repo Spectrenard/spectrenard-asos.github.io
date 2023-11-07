@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "pt-sans-regular";
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "pt-sans-bold";
+    src: url(../fonts/PTSans-Bold.ttf);
+}
+
+$font1: pt-sans-regular, sans-serif; 
+$font2: pt-sans-bold, sans-serif; 
+$green: rgb(204, 255, 0) ;
+$grey1: rgb(45, 45, 45);
+$grey2: rgb(82, 80, 80);
+$red: rgb(208, 19, 69);
+$pink: rgb(252, 92, 127);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  ul {
+    list-style: none;
+  }
